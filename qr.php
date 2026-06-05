@@ -154,7 +154,8 @@
 
     const schoolId = 1900;
 
-    const serverUrl = 'http://localhost:3000';
+    // const serverUrl = 'http://localhost:3000';
+    const serverUrl = 'https://whatsapp-production-cee4.up.railway.app';
 
     let isConnected = false;
 

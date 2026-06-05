@@ -13,7 +13,7 @@ $supportNumber = '+919999999999';
 // $supportNumber;
 
 $message =
-"🏫 *Smart School Management Software*\n\n".
+"🏫 *Railway Smart School Management Software*\n\n".
 
 "Digitally manage your entire school with a modern, secure, and powerful school management system designed for schools, madrasas, academies, and educational institutions.\n\n".
 
@@ -56,7 +56,8 @@ $data = [
 
 $ch = curl_init();
 
-curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/send-message');
+// curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/send-message');
+curl_setopt($ch, CURLOPT_URL, 'https://whatsapp-production-cee4.up.railway.app/send-message');
 
 curl_setopt($ch, CURLOPT_POST, true);
 

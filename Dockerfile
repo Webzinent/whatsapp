@@ -13,4 +13,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "node", "qr.php" ]
+CMD [ "node", "index.js" ]

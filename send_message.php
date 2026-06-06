@@ -56,8 +56,8 @@ $data = [
 
 $ch = curl_init();
 
-// curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/send-message');
-curl_setopt($ch, CURLOPT_URL, 'https://whatsapp-production-cee4.up.railway.app/send-message');
+curl_setopt($ch, CURLOPT_URL, 'http://localhost:3000/send-message');
+// curl_setopt($ch, CURLOPT_URL, 'https://whatsapp-production-cee4.up.railway.app/send-message');
 
 curl_setopt($ch, CURLOPT_POST, true);
 
